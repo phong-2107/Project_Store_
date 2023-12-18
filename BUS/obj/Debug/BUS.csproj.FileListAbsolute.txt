@@ -1,0 +1,15 @@
+D:\Project_Store-Motor\BUS\bin\Debug\BUS.dll
+D:\Project_Store-Motor\BUS\bin\Debug\BUS.pdb
+D:\Project_Store-Motor\BUS\bin\Debug\DAL.dll
+D:\Project_Store-Motor\BUS\bin\Debug\DAL.pdb
+D:\Project_Store-Motor\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Project_Store-Motor\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Project_Store-Motor\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Project_Store-Motor\BUS\obj\Debug\BUS.dll
+D:\Project_Store-Motor\BUS\obj\Debug\BUS.pdb
+D:\Project_Store-Motor\BUS\bin\Debug\BUS.dll.config
+D:\Project_Store-Motor\BUS\bin\Debug\EntityFramework.dll
+D:\Project_Store-Motor\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Store-Motor\BUS\bin\Debug\DAL.dll.config
+D:\Project_Store-Motor\BUS\bin\Debug\EntityFramework.xml
+D:\Project_Store-Motor\BUS\bin\Debug\EntityFramework.SqlServer.xml
