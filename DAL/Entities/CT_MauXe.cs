@@ -51,6 +51,8 @@ namespace DAL.Entities
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CT_GiaoHang> CT_GiaoHang { get; set; }
 
+        public virtual MapKhoChua MapKhoChua { get; set; }
+
         public virtual MauSac MauSac { get; set; }
 
         public virtual PhieuNhapHang PhieuNhapHang { get; set; }

@@ -11,7 +11,6 @@ namespace DAL.Entities
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public PhuTung_VatLieu()
         {
-            CT_KMai = new HashSet<CT_KMai>();
             CT_PNhapPTVL = new HashSet<CT_PNhapPTVL>();
             CT_PXPTVL = new HashSet<CT_PXPTVL>();
         }
@@ -46,14 +45,13 @@ namespace DAL.Entities
         public bool ACTIVE { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CT_KMai> CT_KMai { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CT_PNhapPTVL> CT_PNhapPTVL { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CT_PXPTVL> CT_PXPTVL { get; set; }
 
         public virtual HangSX HangSX { get; set; }
+
+        public virtual NhaCungCap NhaCungCap { get; set; }
     }
 }

@@ -23,6 +23,12 @@ namespace DAL.Entities
         [StringLength(10)]
         public string IDHD { get; set; }
 
+        [Required]
+        [StringLength(10)]
+        public string IDNV { get; set; }
+
+        public DateTime NGAYLAP { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CT_PXPTVL> CT_PXPTVL { get; set; }
 

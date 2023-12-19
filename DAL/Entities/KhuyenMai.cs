@@ -13,6 +13,7 @@ namespace DAL.Entities
         public KhuyenMai()
         {
             CT_KMai = new HashSet<CT_KMai>();
+            HopDongDichVus = new HashSet<HopDongDichVu>();
             PhieuThanhToans = new HashSet<PhieuThanhToan>();
         }
 
@@ -41,6 +42,9 @@ namespace DAL.Entities
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CT_KMai> CT_KMai { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<HopDongDichVu> HopDongDichVus { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PhieuThanhToan> PhieuThanhToans { get; set; }

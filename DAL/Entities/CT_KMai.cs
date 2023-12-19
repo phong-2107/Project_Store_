@@ -34,7 +34,5 @@ namespace DAL.Entities
         public virtual KhuyenMai KhuyenMai { get; set; }
 
         public virtual MauXe MauXe { get; set; }
-
-        public virtual PhuTung_VatLieu PhuTung_VatLieu { get; set; }
     }
 }

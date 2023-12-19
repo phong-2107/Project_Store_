@@ -69,7 +69,7 @@
     <Compile Include="Entities\MapKhoChua.cs" />
     <Compile Include="Entities\MauSac.cs" />
     <Compile Include="Entities\MauXe.cs" />
-    <Compile Include="Entities\Model.cs" />
+    <Compile Include="Entities\Model1.cs" />
     <Compile Include="Entities\NhaCungCap.cs" />
     <Compile Include="Entities\NhanVien.cs" />
     <Compile Include="Entities\PhieuBaoHanh.cs" />

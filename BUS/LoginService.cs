@@ -11,7 +11,7 @@ namespace BUS
     {
         public List<TaiKhoanLogin> GetAll()
         {
-            Model context = new Model();
+            Model1 context = new Model1();
             return context.TaiKhoanLogins.ToList();
         }
     }

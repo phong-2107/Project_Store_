@@ -14,6 +14,7 @@ namespace DAL.Entities
         {
             MauXes = new HashSet<MauXe>();
             PhieuNhapHangs = new HashSet<PhieuNhapHang>();
+            PhuTung_VatLieu = new HashSet<PhuTung_VatLieu>();
         }
 
         [Key]
@@ -47,5 +48,8 @@ namespace DAL.Entities
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PhieuNhapHang> PhieuNhapHangs { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<PhuTung_VatLieu> PhuTung_VatLieu { get; set; }
     }
 }
