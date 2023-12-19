@@ -124,10 +124,10 @@
     <Compile Include="borderRadius\RoundedButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="borderRadius\FormBanHang.cs">
+    <Compile Include="FormBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="borderRadius\FormBanHang.Designer.cs">
+    <Compile Include="FormBanHang.Designer.cs">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDangNhap.cs">
@@ -141,6 +141,12 @@
     </Compile>
     <Compile Include="FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThemNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThemNV.Designer.cs">
+      <DependentUpon>FormThemNV.cs</DependentUpon>
     </Compile>
     <Compile Include="FormKhoiPhucPass.cs">
       <SubType>Form</SubType>
@@ -166,15 +172,9 @@
     <Compile Include="FormTongQuan.Designer.cs">
       <DependentUpon>FormTongQuan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="borderRadius\FormBanHang.resx">
+    <EmbeddedResource Include="FormBanHang.resx">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDangNhap.resx">
@@ -182,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThemNV.resx">
+      <DependentUpon>FormThemNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormKhoiPhucPass.resx">
       <DependentUpon>FormKhoiPhucPass.cs</DependentUpon>
@@ -194,9 +197,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTongQuan.resx">
       <DependentUpon>FormTongQuan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

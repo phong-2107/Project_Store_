@@ -16,5 +16,15 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void gunaLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

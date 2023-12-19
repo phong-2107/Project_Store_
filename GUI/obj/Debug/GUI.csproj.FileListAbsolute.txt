@@ -10,7 +10,6 @@ D:\Project_Store-Motor\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\Project_Store-Motor\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\Project_Store-Motor\GUI\obj\Debug\GUI.exe
 D:\Project_Store-Motor\GUI\obj\Debug\GUI.pdb
-D:\Project_Store-Motor\GUI\obj\Debug\GUI.Home.resources
 D:\Project_Store-Motor\GUI\bin\Debug\Guna.UI.dll
 D:\Project_Store-Motor\GUI\obj\Debug\GUI.FormTongQuan.resources
 D:\Project_Store-Motor\GUI\obj\Debug\GUI.FormSanPham.resources
@@ -117,3 +116,4 @@ D:\Project_Store-Motor\GUI\bin\Debug\EntityFramework.xml
 D:\Project_Store-Motor\GUI\bin\Debug\EntityFramework.SqlServer.dll
 D:\Project_Store-Motor\GUI\bin\Debug\BUS.dll.config
 D:\Project_Store-Motor\GUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Store-Motor\GUI\obj\Debug\GUI.FormThemNV.resources
